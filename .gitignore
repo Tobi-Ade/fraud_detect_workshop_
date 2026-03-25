@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.pkl
+*.joblib
+creditcard.csv
+data/*.csv
+models/*.pkl
+
+# AWS
+.aws/
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# SageMaker
+.sagemaker/
+checkpoints/
+
+# Model artifacts
+model.tar.gz
+output/
+
+# Logs
+*.log
+logs/
+
+# Config (keep example files)
+config/config.json
+!config/config.json.example
